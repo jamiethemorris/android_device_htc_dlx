@@ -187,3 +187,7 @@ $(call inherit-product-if-exists, frameworks/native/build/phone-xxhdpi-2048-dalv
 
 # call hwui memory config
 $(call inherit-product-if-exists, frameworks/native/build/phone-xxhdpi-2048-hwui-memory.mk)
+
+# TWRP fstab
+PRODUCT_COPY_FILES += \
+    /device/htc/dlx/twrp.fstab:recovery/root/etc/twrp.fstab
