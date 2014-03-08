@@ -190,4 +190,4 @@ $(call inherit-product-if-exists, frameworks/native/build/phone-xxhdpi-2048-hwui
 
 # TWRP fstab
 PRODUCT_COPY_FILES += \
-    /device/htc/dlx/twrp.fstab:recovery/root/etc/twrp.fstab
+    device/htc/dlx/twrp.fstab:recovery/root/etc/twrp.fstab
